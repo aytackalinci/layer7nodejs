@@ -2,8 +2,8 @@ const fs = require('fs');
 const url = require('url');
 const net = require('net');
 if (process.argv.length <= 2) {
-	console.log("Usage: node rand.js <url> <time>");
-	console.log("Usage: node rand.js <http://example.com> <60>");
+	console.log("Usage: node layer7.js <url> <time>");
+	console.log("Usage: node layer7.js <http://websiteee.com> <60>");
 	process.exit(-1);
 }
 var target = process.argv[2];
